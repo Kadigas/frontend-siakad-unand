@@ -27,7 +27,7 @@ a {
   --color-dark: #212529;
   --color-white: #ffffff;
   --color-black: #000000;
-  --body-bg-color: #ffffff;
+  --body-bg-color: #e4e4e4;
   --body-text-color: #212529;
   --body-link-color: #204397;
   --body-link-hover-color: #c8475b;
@@ -45,15 +45,13 @@ a {
 body {
   background-color: #F1F1EF;
   animation: fadeInAnimation ease 0.75s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
-  0% {
+  from {
       opacity: 0;
   }
-  100% {
+  to {
       opacity: 1;
   }
 }

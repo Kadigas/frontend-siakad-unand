@@ -1,7 +1,7 @@
 import styles from './Nav-drawer.module.css'
 import Link from 'next/link'
 
-export default function Sidebar(){
+export default function Navdrawer(){
     return (
         <div className={styles.navdrawer}>
             <div className='mx-5 text-lg'>

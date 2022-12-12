@@ -2,6 +2,7 @@
     background-color: var(--color-black);
     color: var(--color-light);
     overflow: auto;
+    height: 100%;
 }
 
 .pages, .module{
