@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,14 +17,43 @@ a {
 
 * {
   box-sizing: border-box;
+  --color-primary: #209636;
+  --color-secondary: #3a708a;
+  --color-success: #198754;
+  --color-info: #0dcaf0;
+  --color-warning: #fd7e14;
+  --color-danger: #dc3545;
+  --color-light: #f8f9fa;
+  --color-dark: #212529;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --body-bg-color: #ffffff;
+  --body-text-color: #212529;
+  --body-link-color: #204397;
+  --body-link-hover-color: #c8475b;
+  --mainnav-text-color: #0d6d08;
+  --mainnav-link-color: #0d6d08;
+  --mainnav-link-hover-color: #aeb1b8;
+  --mainnav-link-active-color: #969ca4;
+  --footer-bg-color: #126638;
+  --footer-text-color: rgba(255, 255, 255, 0.5);
+  --footer-link-color: #ffffff;
+  --footer-link-hover-color: #eae2e2;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+body {
+  background-color: #F1F1EF;
+  animation: fadeInAnimation ease 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
   }
-  body {
-    color: white;
-    background: black;
+  100% {
+      opacity: 1;
   }
 }

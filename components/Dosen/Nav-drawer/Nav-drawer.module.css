@@ -1,0 +1,25 @@
+.navdrawer{
+    background-color: var(--color-black);
+    color: var(--color-light);
+    overflow: auto;
+}
+
+.pages, .module{
+    text-decoration: none;
+}
+
+.pages{
+    margin: 8rem 0 0;
+}
+
+.module {
+    margin: 5rem 0;
+}
+
+.navdrawer .active li{
+    font-weight: 700;
+}
+
+.navdrawer li:hover{
+    color: gray;
+}
