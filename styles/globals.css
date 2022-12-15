@@ -18,6 +18,8 @@ a {
 * {
   box-sizing: border-box;
   --color-primary: #209636;
+  --color-primary2: #40c15733;
+  --color-primary3: #ffffffcc;
   --color-secondary: #3a708a;
   --color-success: #198754;
   --color-info: #0dcaf0;
@@ -35,6 +37,7 @@ a {
   --mainnav-link-color: #0d6d08;
   --mainnav-link-hover-color: #aeb1b8;
   --mainnav-link-active-color: #969ca4;
+  --drawer-color: #222D31;
   --footer-bg-color: #126638;
   --footer-text-color: rgba(255, 255, 255, 0.5);
   --footer-link-color: #ffffff;

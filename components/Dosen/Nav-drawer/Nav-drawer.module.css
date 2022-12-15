@@ -1,5 +1,5 @@
 .navdrawer{
-    background-color: var(--color-black);
+    background-color: var(--drawer-color);
     color: var(--color-light);
     overflow: auto;
     height: 100%;
